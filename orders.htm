@@ -1,0 +1,97 @@
+<html>
+<head>
+    <!DOCTYPE html>
+    <link rel="stylesheet" href="style.css">
+    <title>
+
+    </title>
+</head>
+<body>
+<h1>Orders</h1>
+
+<table width="100%">
+    <tr>
+        <td width="20%">
+            <a href="index.htm">   <img src="images/nav_home.gif">     </a>    <br>
+            <a href="about.htm">   <img src="images/nav_about.gif">    </a>    <br>
+            <a href="gallery.htm"> <img src="images/nav_gallery.gif">  </a>    <br>
+            <a href="orders.htm">  <img src="images/nav_ordering.gif"> </a>    <br>
+            <a href="contact.htm"> <img src="images/nav_contact.gif">  </a>    <br>
+            <a href="links.htm">   <img src="images/nav_links.gif">    </a>    <br>
+        </td>
+        <td>
+            <h2>
+                Order a pot
+            </h2>
+            <form action="orders.htm" method="GET"></form> </form>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" required></input>
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" required></input>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="text" name="phone" required></input>
+            <br> <br>
+            <span>Shipping Address</span> 
+            <br>
+            <label for="address">Street Address</label>
+            <input id="address" type="text" name="address" required></input>
+            <br>
+            <label for="city">City</label>
+            <input id="city" type="text" name="city" required></input>
+            <br>
+            <label for="state">State</label>
+            <input id="state" type="text" name="state" required></input>
+            <br>
+            <label for="zip">Zip Code</label>
+            <input id="zip" type="text" name="zip" required></input>
+            <br> <br>
+            <span>Choose your pot</span>
+            <br>
+            <label for="pot">Pots</label>
+            <select id="pot" name="pot" required>
+                <option value="blank"></option>
+                <option value="red earth">Red Earth</option>
+                <option value="night sky">Night Sky</option>
+                <option value="country planter">Country Planter</option>
+                <option value="chinese clay">Chinese Clay</option>
+                <option value="italian terracotta">Italitan Terracotta</option>
+                <option value="carved terracotta">Carved Terracotta</option>
+                <option value="classic clay">Classic Clay</option>
+            </select>
+            <br>
+            <label for="number">How many pots</label>
+            <input id="number" type="text" name="number" required></input>
+            <br> <br>
+            <span>What's your gardening skill</span>
+            <br>
+            <section class="skill">
+            <input id="amateur" type="radio" name="skill" value="amateur"></input>
+            <label for="amateur">Amateur</label>
+            <input id="hobby" type="radio" name="skill" value="hobby"></input>
+            <label for="hobby">Hobbyist</label>
+            <input id="pro" type="radio" name="skill" value="pro"></input>
+            <label for="pro">Professional</label>
+            </section>
+            <br> <br>
+            <span>Would you like to join our email newsletter or catalog?</span>
+            <br>
+            <input id="newsletter" type="checkbox" name="newsletter" value="newsletter"></input>
+            <label for="newsletter">Newsletter</label>
+            <input id="catalog" type="checkbox" name="catalog" value="catalog"></input>
+            <label id="catalog">Catalog</label>
+            <br> <br>
+            <input type="submit" value="Submit"></input>
+        </td>
+    </tr>
+    </table>
+
+<a href="index.htm">Home</a>
+<a href="about.htm">About Us</a>
+<a href="gallery.htm">Gallery</a>
+<a href="orders.htm">Ordering</a>
+<a href="contact.htm">Contact Us</a>
+<a href="links.htm">Related Links</a>
+</body>
+</html>
